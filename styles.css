@@ -1,0 +1,61 @@
+:root {
+  --theme-color: cornflowerblue;
+}
+
+#question_box {
+  position: relative;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.btn {
+  background: var(--theme-color) !important;
+  color: white !important;
+  border-radius: 0.25em !important;
+}
+
+.btn:hover {
+  background: white !important;
+  border: 1px solid var(--theme-color);
+  border-radius: 0.25em;
+  color: var(--theme-color) !important;
+}
+
+.btn-danger {
+  background: #eb092f !important;
+}
+
+.btn-danger:hover {
+  background: white !important;
+  border: 1px solid #eb092f;
+  border-radius: 0.25em;
+  color: #eb092f !important;
+}
+
+.btn-info {
+  background: #4faace !important;
+}
+
+.btn-info:hover {
+  background: white !important;
+  border: 1px solid #4faace;
+  border-radius: 0.25em;
+  color: #4faace !important;
+}
+
+i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2rem;
+  color: var(--theme-color);
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+#flashcard {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
